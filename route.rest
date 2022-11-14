@@ -1,0 +1,29 @@
+GET http://localhost:3000/users
+
+
+###
+
+
+GET http://localhost:3000/users
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name":"Guilherme",
+    "content": "Conteudo 5",
+    "image": "https://i.picsum.photos/id/925/536/354.jpg?hmac=LOwNDNY01Usnn_7f-5NwaVkOcFMKNLAIF8Fym7uTiAg"
+}
+
+###
+DELETE http://localhost:3000/users/6371309f97a1c33e04a6d57b
+
+###
+PATCH http://localhost:3000/users/63712f0cb01281d600f122b7
+Content-Type: application/json
+
+{
+    "name":"Guilherme lopes"
+    
+}
